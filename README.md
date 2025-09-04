@@ -62,13 +62,13 @@ cd /opt/hadoop-3.2.1/share/hadoop/mapreduce/
 Create a folder in HDFS for the input dataset:
 
 ```bash
-hadoop fs -mkdir -p /input/dataset
+hadoop fs -mkdir -p /input/data
 ```
 
 Copy the input dataset to the HDFS folder:
 
 ```bash
-hadoop fs -put ./input.txt /input/dataset
+hadoop fs -put ./input.txt /input/data
 ```
 
 ### 8. **Execute the MapReduce Job**
